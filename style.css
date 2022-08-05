@@ -1,0 +1,112 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 220px;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.logo {
+  max-width: fit-content;
+}
+
+.container {
+  display: flex;
+  max-width: 700px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.usuarios {
+  max-width: 160px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgba(104, 91, 91, 0.747);
+  box-sizing: border-box;
+}
+
+.UserImg {
+  width: 160px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.UserImg .img {
+  display: flex;
+  padding: 2px;
+  border-radius: 8px;
+}
+
+.UserPlus {
+  width: 160px;
+  background-color: #0000007a;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid invisible;
+}
+.imgpls {
+  border-radius: 100%;
+  opacity: 0.3;
+}
+
+.button {
+  background-color: black;
+  color: aliceblue;
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 9%;
+  height: 60px;
+  transition-duration: 0.3s;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.UserPlus:hover {
+  color:silver;
+}
+
+.UserPlus:hover .imgpls {
+  opacity: 1; 
+  background-color: rgba(192, 192, 192, 0);
+}
+
+.UserImg:hover {
+  background-color: silver;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.usuarios:hover h4 {
+  color: rgb(255, 255, 255);
+}
+ .h4:hover .usuarios{
+  background-color: silver;
+  padding-left: 2px;
+  padding-right: 2px;
+ }
+.button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
