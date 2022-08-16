@@ -43,29 +43,32 @@ body {
   width: 160px;
   border-radius: 8px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+ 
+ 
 }
 
 .UserImg .img {
-  display: flex;
-  padding: 2px;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+  max-width: 160px;
   border-radius: 8px;
+
 }
 
 .UserPlus {
   width: 160px;
-  background-color: #0000007a;
+  background-color: #27242485;
   height: 100%;
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid invisible;
+  border: 1px invisible;
 }
 .imgpls {
   border-radius: 100%;
   opacity: 0.3;
+ 
 }
 
 .button {
@@ -85,7 +88,8 @@ body {
   margin-top: 20px;
 }
 .UserPlus:hover {
-  color:silver;
+
+  
 }
 
 .UserPlus:hover .imgpls {
@@ -101,7 +105,8 @@ body {
 .usuarios:hover h4 {
   color: rgb(255, 255, 255);
 }
- .h4:hover .usuarios{
+ .h4:hover .UserImg{
+  color: silver;
   background-color: silver;
   padding-left: 2px;
   padding-right: 2px;
